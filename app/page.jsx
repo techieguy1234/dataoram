@@ -19,8 +19,8 @@ export default async function Home() {
   const posts = await getPosts();
   return (
     <main className={styles.main}>
-      <Link href={'/add-post'}>Add Post</Link>
-      <h1>Feed</h1>
+       <Link href={'/add-post'}>Add BOOK</Link>
+      <h1>BOOKS LIST</h1>
       {
         posts.map((post) => {
           return (
