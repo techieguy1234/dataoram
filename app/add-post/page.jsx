@@ -40,7 +40,7 @@ export default function AddPost(){
     return (
         <main className={styles.main}>
             <Link href={'/'}>View Feed</Link>
-        <h1>Add Post</h1>
+        <h1>Add Book</h1>
         <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="title">Title:</label>
